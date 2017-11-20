@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<hrml>
+    <head>
+        <meta charset="utf-8">
+        <title>Prueba imagenes</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <h1>ICONOS</h1>
+        <p>Comparo los dos iconos, en png y svg. Podemos observar que el svg tarda mas tiempo en cargar, por ello se comprime en Gzip, una vez comprimido cambiamos el formato resultante a ".svgz".</p>
+        <h2>Facebook</h2>
+        <section>
+            <div class="imagen1">
+                <ul class="img1">
+                    <li><img src="../facebook.png"></li>
+                    <li><img src="../facebook.svg"></li>
+                    <li><img src="../facebook.svgz"></li>
+                </ul>   
+            </div>
+        </section>
+        <h2>Tabla comparativa</h2>
+        <section>
+            <div class="tabla">
+                <table border="2px"> <!-- Lo cambiaremos por CSS -->
+                    <tr>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Type</th>
+                        <th>Initiator</th>
+                        <th>Size</th>
+                        <th>Time(approximately)</th>
+                    </tr>
+                    <tr>
+                      <td>facebook</td>
+                      <td>Finished</td>
+                      <td>png</td>
+                      <td>prueba.html</td> 
+                      <td>4,44 KB (4.551 bytes)</td>   
+                      <td>14 ms</td>     
+                    </tr>
+                    <tr>
+                      <td>facebook</td>
+                      <td>Finished</td>
+                      <td>svg</td>
+                      <td>prueba.html</td>
+                      <td>551 KB (564.804 bytes)</td>   
+                      <td>16 ms</td> 
+                    </tr>
+                    <tr>
+                      <td>facebook</td>
+                      <td>Finished</td>
+                      <td>svgz</td>
+                      <td>prueba.html</td>
+                      <td>68,0 KB (69.708 bytes)</td>   
+                      <td>17 ms</td> 
+                    </tr>
+                </table>      
+            </div>
+        </section>
+        <footer>
+            <div class="copy">
+                <p>&#169;Sofía Valera Fernández</p>
+            </div>    
+        </footer>    
+    </body>
+</hrml>

@@ -1,0 +1,82 @@
+*{
+    background-color: beige;
+}
+/*---Titulos----*/
+h1{
+    color:dimgray;
+    text-align: center;
+    font-family: cursive;
+}
+/*---Parrafos----*/
+p{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+}
+/*---Titulos----*/
+h2{
+    
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+/*---------Imagen 1------------*/
+.imagen1 img{
+    
+    width: 90%;
+    height: 90%;
+    border: 1px solid;
+    filter: contrast(1.75) brightness(1.2);
+    
+}
+
+.img1{
+    
+    display: flex;
+    width: 100%;
+}
+
+.imagen1 ul li {
+    list-style: none;
+}
+
+
+/*------------------------------*/
+/*---------Imagen 2------------*/
+
+.imagen2 img{
+    
+    width: 90%;
+    height: 90%;
+    border: 1px solid;
+    filter: contrast(1.2);
+}
+.img2{
+    
+    display: flex;
+    width: 100%;
+}
+
+.imagen2 ul li {
+    list-style: none;
+}
+/*----------------Tabla--------------*/
+table{
+    
+    border: darkgray;
+    margin: 0 auto;
+    background-color: darkturquoise;
+}
+
+/*-------------CopyRight-----------------*/
+
+.copy{
+    
+    margin-top: 5%;
+}
+
+.copy p{
+    
+    border: 1px solid;
+    border-style: dotted;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<hrml>
+    <head>
+        <meta charset="utf-8">
+        <title>Prueba imagenes</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <h1>PRUEBAS IMAGENES GRANDES</h1>
+        <p>Aplicando contraste con Photoshop a "-50", guardandolo con calidad alta (10) y con CSS modificando brillo y contraste. 
+        Conseguiriamos reducir considerablemente su tamaño y perder poca calidad.</p>
+        <p>A continuación voy a mostrar la diferencia entre la imagen original que es la de la izquierda y la modificada que es la de la derecha:</p>
+        <h2>Imagen de prueba</h2>
+        <section>
+            <div class="imagen1">
+                <ul class="img1">
+                    <li><img src="Img/img1.jpg"></li>
+                    <li><img src="Img/img1modify.jpg"></li>
+                </ul> 
+                <p>El filtro aplicado a la imagen modificada es: "filter: contrast(1.75) brightness(1.2);", a parte de el contraste de Photoshop. Con esto se reduce el tamaño de: 3,06 MB (3.216.227 bytes) a 2,25 MB (2.360.050 bytes).</p>    
+            </div>
+        </section>
+        <h2>Imagen fondo pinturas</h2>
+        <section>
+            <div class="imagen2">
+                <ul class="img2">
+                    <li><img src="Img/fondoColores.jpg"></li>
+                    <li><img src="Img/fondoColoresModify.jpg"></li>
+                </ul> 
+                <p>El filtro aplicado a la imagen modificada es: "filter: contrast(1.75) brightness(1.2);", a parte de el contraste de Photoshop. Con esto se reduce el tamaño de: 7,23 MB (7.584.095 bytes) a 1,72 MB (1.813.977 bytes).</p>  
+            </div>
+        </section>
+        <h2>Zoom de las imagenes</h2>
+        <section>
+            <div class="imagen1">
+                <p>Al ampliar las imagenes no se pierde a penas resolucion, debido a que la imagen no se escala, si no se cambia el el brillo y contraste. La imagen de la izquierda es la original y la de la derecha la modificada. Con la imagen de fondo de pinturas, pasa exactamente igual.</p>
+                <ul class="img1">
+                    <li><img src="Img/zoom_img1.png"></li>
+                    <li><img src="Img/zoom_img1modify.png"></li>
+                </ul> 
+            </div> 
+        </section>
+        <h2>Tabla comparativa</h2>
+        <section>
+            <div class="tabla">
+                <table border="2px"> <!-- Lo cambiaremos por CSS -->
+                    <tr>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Type</th>
+                        <th>Initiator</th>
+                        <th>Size</th>
+                        <th>Time(approximately)</th>
+                    </tr>
+                    <tr>
+                      <td>Img1</td>
+                      <td>Finished</td>
+                      <td>jpeg</td>
+                      <td>prueba.html</td> 
+                      <td>3,06 MB</td>   
+                      <td>267 ms</td>     
+                    </tr>
+                    <tr>
+                      <td>Img1modify</td>
+                      <td>Finished</td>
+                      <td>jpeg</td>
+                      <td>prueba.html</td>
+                      <td>2,25 MB</td>   
+                      <td>108 ms</td> 
+                    </tr>
+                    <tr>
+                      <td>fondoColores</td>
+                      <td>Finished</td>
+                      <td>jpeg</td>
+                      <td>prueba.html</td>
+                      <td>7,23 MB</td>   
+                      <td>321 ms</td>
+                    </tr>
+                    <tr>
+                      <td>fondoColoresModify</td>
+                      <td>Finished</td>
+                      <td>jpeg</td>
+                      <td>prueba.html</td>
+                      <td>1,72 MB</td>   
+                      <td>83 ms</td> 
+                    </tr>
+                </table>      
+            </div>
+        </section>
+        <footer>
+            <div class="copy">
+                <p>&#169;Sofía Valera Fernández</p>
+            </div>    
+        </footer>    
+    </body>
+</hrml>

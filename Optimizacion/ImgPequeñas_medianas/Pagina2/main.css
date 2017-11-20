@@ -1,0 +1,116 @@
+*{
+    background-color: beige;
+}
+/*---Titulos----*/
+h1{
+    color:dimgray;
+    text-align: center;
+    font-family: cursive;
+}
+/*---Parrafos----*/
+p{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+}
+/*---Titulos----*/
+h2{
+    
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+/*---------Imagen 1------------*/
+.imagen1 img{
+    
+    width: 30%;
+    height: 80%;
+    border: 1px solid;
+    
+}
+
+.img1{
+    
+    width: 100%;
+}
+
+.imagen1 ul li {
+    list-style: none;
+}
+
+
+/*------------------------------*/
+/*---------Imagen 2------------*/
+
+.imagen2 img{
+    
+    width: 30%;
+    height: 30%;
+    border: 1px solid;
+}
+.img2{
+    
+    width: 100%;
+}
+
+.imagen2 ul li {
+    list-style: none;
+}
+/*---------Imagen 3------------*/
+
+.imagen3 img{
+    
+    width: 30%;
+    height: 10%;
+    border: 1px solid;
+}
+.img3{
+    
+    width: 100%;
+}
+
+.imagen3 ul li {
+    list-style: none;
+}
+/*---------Imagen 4------------*/
+
+.imagen4 img{
+    
+    width: 30%;
+    height: 20%;
+    border: 1px solid;
+}
+.img4{
+    
+    width: 100%;
+}
+
+.imagen4 ul li {
+    list-style: none;
+}
+/*----------------Tabla--------------*/
+table{
+    
+    border: darkgray;
+    margin: 0 auto;
+    background-color: black;
+}
+.tabla{
+    
+    float: right;
+    margin-right: 10%;
+    margin-top: -27%;
+    width: 50%;
+}
+/*-------------CopyRight-----------------*/
+
+.copy{
+    
+    margin-top: 5%;
+}
+
+.copy p{
+    
+    border: 1px solid;
+    border-style: dotted;
+}
